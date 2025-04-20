@@ -54,5 +54,19 @@ CREATE TABLE InstaUsers (
     is_verified VARCHAR(5)
 );
 
+CREATE TABLE FanDevices (
+    fan_id INT PRIMARY KEY,
+    model_name VARCHAR(100),
+    brand VARCHAR(50),
+    blade_size_inches INT,
+    color VARCHAR(50),
+    speed_levels INT,
+    has_remote_control VARCHAR(5),
+    manufacturing_date DATE,
+    warranty_years INT,
+    status VARCHAR(20)
+);
+
+
 
 
